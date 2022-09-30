@@ -20,7 +20,6 @@ public class GitHub {
   public void beforeTest() throws Exception {
 	  System.setProperty("webdriver.chrome.driver", "E:\\Lib\\chromedriver.exe");
 		driver = new ChromeDriver();
-		Thread.sleep(3000);
 		driver.manage().window().maximize();
   }
 
