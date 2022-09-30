@@ -28,7 +28,7 @@ public class ScrollDownUp {
 	
 	@Test
 	public void scrollUp() throws Exception {
-	//	driver.get("https://www.selenium.dev");
+		driver.get("https://www.selenium.dev");
 		Thread.sleep(5000);
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("scroll(1000, 0)"); 
